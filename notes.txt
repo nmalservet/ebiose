@@ -1,0 +1,6 @@
+-- user ebiose
+grant all on ebiose.* to 'ebioseuserdb'@'localhost' IDENTIFIED BY 'ebioseuserdb';
+
+-- grant write on runtime and assets for cache files and logs
+sudo chmod ugo+wx ./ebiose/protected/runtime/
+sudo chmod ugo+wx ./ebiose/assets/

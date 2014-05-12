@@ -1,0 +1,21 @@
+.image-main-menu{
+	margin: 0px 5px 0px 0px;
+}
+
+.help-box{
+	background: #eeeeee;
+}
+
+.boite table
+{
+    margin-left: 5px;
+  	border-collapse: collapse;
+}
+
+.boite td
+{
+    border: 1px solid #080BE3;
+    vertical-align: middle;
+    background-color: #AEFFF8;
+    padding: 0px;
+}
